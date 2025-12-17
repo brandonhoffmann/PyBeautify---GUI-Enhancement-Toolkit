@@ -1,0 +1,17 @@
+# themes/dark_theme.py
+class DarkTheme:
+    COLORS = {
+        'bg': '#2b2b2b',
+        'fg': '#ffffff',
+        'primary': '#4a90e2',
+        'secondary': '#7b7b7b',
+        'success': '#2ecc71',
+        'warning': '#f39c12',
+        'error': '#e74c3c'
+    }
+    
+    FONTS = {
+        'header': ('Arial', 16, 'bold'),
+        'body': ('Arial', 11),
+        'small': ('Arial', 9)
+    }
